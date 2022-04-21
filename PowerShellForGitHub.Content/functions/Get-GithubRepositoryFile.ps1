@@ -28,6 +28,7 @@
 		Search all github projects maintained directly by Friedrich Weinmann and download all ps1 and psm1 files from all branches of them all.
 		Hint: This may take a while and will return loooots of data ;)
 	#>
+	[Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSReviewUnusedParameter', '')]
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]
